@@ -1,0 +1,14 @@
+﻿  quiz.cpp
+C:\Users\sheng\Desktop\CppLearning\chapter4\quiz.cpp(17,10): warning C4129:  “+”: 不可识别的字符转义序列
+C:\Users\sheng\Desktop\CppLearning\chapter4\quiz.cpp(17,10): warning C4129:  “-”: 不可识别的字符转义序列
+C:\Users\sheng\Desktop\CppLearning\chapter4\quiz.cpp(17,10): warning C4129:  “*”: 不可识别的字符转义序列
+C:\Users\sheng\Desktop\CppLearning\chapter4\quiz.cpp(17,10): warning C4129:  “/”: 不可识别的字符转义序列
+C:\Users\sheng\Desktop\CppLearning\chapter4\quiz.cpp(24,18): error C2059:  语法错误:“)”
+C:\Users\sheng\Desktop\CppLearning\chapter4\quiz.cpp(25,2): error C2143:  语法错误: 缺少“;”(在“{”的前面)
+C:\Users\sheng\Desktop\CppLearning\chapter4\quiz.cpp(26,2): error C2046:  非法的 case
+C:\Users\sheng\Desktop\CppLearning\chapter4\quiz.cpp(28,2): error C2046:  非法的 case
+C:\Users\sheng\Desktop\CppLearning\chapter4\quiz.cpp(30,2): error C2046:  非法的 case
+C:\Users\sheng\Desktop\CppLearning\chapter4\quiz.cpp(32,2): error C2046:  非法的 case
+C:\Users\sheng\Desktop\CppLearning\chapter4\quiz.cpp(27,3): error C2043:  非法 break
+C:\Users\sheng\Desktop\CppLearning\chapter4\quiz.cpp(29,3): error C2043:  非法 break
+C:\Users\sheng\Desktop\CppLearning\chapter4\quiz.cpp(31,3): error C2043:  非法 break
