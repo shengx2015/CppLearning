@@ -11,37 +11,19 @@ double getValue()
 	return inputNum;
 }
 
-<<<<<<< HEAD
+
 char getMathSymb()
 {
-	char inputSymb;
+	char inputSymb{};
 	cout << "Enter one of the following: +, -, *, or /: " << endl;
-=======
-string getMathSymb()
-{
-	string inputSymb;
-	cout << "Enter one of the following: \+, \-, \*, or \/: " << endl;
->>>>>>> 8fc8fbbd3a1ddfc9d2d31870a222cbfe1e8aed95
 	cin >> inputSymb;
 	return inputSymb;
 }
 
-<<<<<<< HEAD
-void calculation(double x, double y, char z)
+
+double calculation(double x, double y, char z)
 {
-	switch ( z)
-	{
-	case '*': cout << x * y << endl;
-		break;
-	case '/': cout << x / y << endl;
-		break;
-	case '+': cout << x + y << endl;
-		break;
-	case '-': cout << x - y << endl;
-=======
-double calculation(double x, double y, string z)
-{
-	switch (string z)
+	switch (z)
 	{
 	case '*': return x * y;
 		break;
@@ -50,7 +32,6 @@ double calculation(double x, double y, string z)
 	case '+': return x + y;
 		break;
 	case '-': return x - y;
->>>>>>> 8fc8fbbd3a1ddfc9d2d31870a222cbfe1e8aed95
 	}
 }
 
@@ -58,17 +39,10 @@ int main()
 {
 	double x = { getValue() };
 	double y = { getValue() };
-<<<<<<< HEAD
-	char z = {getMathSymb()};
-	calculation(x, y, z);
+	char z = { getMathSymb() };
+	double result = {calculation(x, y, z)};
 
+	cout << x << " " << z << " " << y << " is " << result << endl;
 	return 0;
 }
-=======
-	string z = { getMathSymb() };
-	double result = calculation(x, y, z);
 
-	cout << x << getMathSymb << y << "is" << result << endl;
-	return 0;
-}
->>>>>>> 8fc8fbbd3a1ddfc9d2d31870a222cbfe1e8aed95
